@@ -215,7 +215,7 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    secure_headers (3.4.0)
+    secure_headers (3.4.1)
       useragent
     shoulda-matchers (3.1.1)
       activesupport (>= 4.0.0)
@@ -262,7 +262,7 @@ GEM
     uglifier (3.0.2)
       execjs (>= 0.3.0, < 3)
     url (0.3.2)
-    useragent (0.16.7)
+    useragent (0.16.8)
     web-console (3.3.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
