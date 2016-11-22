@@ -54,7 +54,7 @@ GEM
     capybara-webkit (1.11.1)
       capybara (>= 2.3.0, < 2.8.0)
       json
-    codecov (0.1.8)
+    codecov (0.1.9)
       json
       simplecov
       url
@@ -139,7 +139,7 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.4)
       pry (>= 0.9.10)
-    puma (3.6.0)
+    puma (3.6.1)
     rack (2.0.1)
     rack-rewrite (1.5.1)
     rack-test (0.6.3)
