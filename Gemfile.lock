@@ -254,7 +254,7 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
-    twemoji (3.0.2)
+    twemoji (3.1.0)
       nokogiri (~> 1.6.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
