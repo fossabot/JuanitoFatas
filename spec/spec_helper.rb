@@ -5,7 +5,7 @@ $: << File.expand_path("../..", __FILE__)
 if ENV["CI"] == "true"
   require "simplecov"
   SimpleCov.start
-  require 'codecov'
+  require "codecov"
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
