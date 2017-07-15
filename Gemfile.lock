@@ -213,7 +213,7 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    secure_headers (3.6.1)
+    secure_headers (3.6.7)
       useragent
     shoulda-matchers (3.1.2)
       activesupport (>= 4.0.0)
