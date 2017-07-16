@@ -40,7 +40,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "octokit", "~> 4.3.0"
+  gem "octokit", "~> 4.7.0"
   gem "web-console"
   gem "listen", "~> 3.1.5"
   gem "spring"
