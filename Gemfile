@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "2.3.1"
 
 gem "rails", ">= 5.0.5"
-gem "pg", "~> 0.18"
+gem "pg", "~> 0.21"
 gem "puma", "~> 3.0"
 gem "slim-rails"
 gem "sass-rails", "~> 5.0"
