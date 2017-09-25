@@ -3,13 +3,23 @@ header.short-introduction
   p
     ' I'm a software engineer interested in programming, web development,
     ' agile practices, software craftsmanship, and
-    = link_to "humane development", "http://humanedevelopment.org", target: "_blank", rel: "noopener", "aria-label" => "http://humanedevelopment.org", "itemprop" => "url"
+    = link_to "humane development", "http://humanedevelopment.org", target: "_blank",
+      rel: "noopener", "aria-label" => "http://humanedevelopment.org", "itemprop" => "url"
+    ' . I am a Ruby Developer works at
+    = link_to "Cookpad", "https://cookpad.com/us", target: "_blank",
+      rel: "noopener", "aria-label" => "https://cookpad.com/uk", "itemprop" => "url"
     ' . Previously at
-    = link_to "Jolly Good Code", "http://www.jollygoodcode.com", target: "_blank", rel: "noopener", "aria-label" => "http://www.jollygoodcode.com", "itemprop" => "url"
-    ' , I wrote code, practiced Test-Driven Development, Continuous Integration and other Agile practices. I worked on internal applications, tools, client projects, and products. I frequently
-    = link_to "contribute to Open Source", "/contributions", "aria-label" => "JuanitoFatas's Open Source Contributions Page", "itemprop" => "url"
+    = link_to "Jolly Good Code", "http://www.jollygoodcode.com", target: "_blank",
+      rel: "noopener", "aria-label" => "http://www.jollygoodcode.com", "itemprop" => "url"
+    ' , I wrote code, practiced Test-Driven Development, Continuous Integration and other
+    ' Agile practices. I worked on internal applications, tools, client projects, and products.
+    ' I frequently
+    = link_to "contribute to Open Source", "/contributions",
+      "aria-label" => "JuanitoFatas's Open Source Contributions Page", "itemprop" => "url"
     ' , regularly participate at community events, enjoy attending and
-    = link_to "speaking at meetups and conferences", "https://speakerdeck.com/juanitofatas", target: "_blank", rel: "noopener", "aria-label" => "https://speakerdeck.com/juanitofatas", "itemprop" => "url"
+    = link_to "speaking at meetups and conferences", "https://speakerdeck.com/juanitofatas",
+      target: "_blank", rel: "noopener", "aria-label" => "https://speakerdeck.com/juanitofatas",
+      "itemprop" => "url"
     | .
   p
     ' I live in Tokyo, Japan. In the past, I lived in Taipei and studied my bachelor degree in Leuven, Belgium.
@@ -21,8 +31,12 @@ header.short-introduction
 
   ul.link-list itemscope="" itemtype="https://www.schema.org/SiteNavigationElement"
     li itemprop="name"= link_to "Writing", "/blog", "aria-label" => "Blog", "itemprop" => "url"
-    li itemprop="name"= link_to "Speaking", "https://speakerdeck.com/juanitofatas", target: "_blank", rel: "noopener", "aria-label" => "Speaking", "itemprop" => "url"
-    li itemprop="name"= link_to "Twitter", "https://twitter.com/juanitofatas", target: "_blank", rel: "noopener", "aria-label" => "Twitter", "itemprop" => "url"
-    li itemprop="name"= link_to "GitHub", "https://github.com/juanitofatas", target: "_blank", rel: "noopener", "aria-label" => "GitHub", "itemprop" => "url"
-    li itemprop="name"= mail_to "me@juanitofatas.com", "Contact", "aria-label" => "Contact", "itemprop" => "url"
+    li itemprop="name"= link_to "Speaking", "https://speakerdeck.com/juanitofatas", target: "_blank",
+      rel: "noopener", "aria-label" => "Speaking", "itemprop" => "url"
+    li itemprop="name"= link_to "Twitter", "https://twitter.com/juanitofatas", target: "_blank",
+      rel: "noopener", "aria-label" => "Twitter", "itemprop" => "url"
+    li itemprop="name"= link_to "GitHub", "https://github.com/juanitofatas", target: "_blank",
+      rel: "noopener", "aria-label" => "GitHub", "itemprop" => "url"
+    li itemprop="name"= mail_to "me@juanitofatas.com", "Contact", "aria-label" => "Contact",
+      "itemprop" => "url"
     li itemprop="name"= link_to "Quotes", quotes_path, "aria-label" => "Quotes", "itemprop" => "url"
