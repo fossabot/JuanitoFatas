@@ -1,7 +1,10 @@
 ul.topic-list
   li.topic-item= link_to("all", tags_path, "aria-label" => "All Tags", "itemprop" => "url")
   - %w(ruby rails).each do |tag|
-    li.topic-item= link_to(tag, tag_path(tag), "aria-label" => "Posts tagged with #{tag}", "itemprop" => "url")
+    li.topic-item= link_to(tag, tag_path(tag),
+      "aria-label" => "Posts tagged with #{tag}", "itemprop" => "url")
+  li.topic-item= link_to("Medium", "https://medium.com/@JuanitoFatas",
+    target: "_blank", rel: "noopener", "aria-label" => "All Tags", "itemprop" => "url")
 
 ul.tiny-post-list
   - @posts.each do |post|
