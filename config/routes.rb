@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get "tags/:id" => "tags#show", as: :tag
   get "quotes" => "quotes#index"
   get "contributions" => "contributions#index"
+  get "are-you-with-me" => "health_checks#show"
 end
