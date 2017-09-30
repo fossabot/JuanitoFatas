@@ -21,6 +21,10 @@ class Post < ApplicationRecord
     title
   end
 
+  def cache_key
+    [record_key, updated_at.to_s].join("/")
+  end
+
   private
 
     def to_slug

@@ -27,6 +27,7 @@ gem "skylight"
 gem "redis"
 gem "gemoji"
 gem "nokogiri", ">= 1.7.1"
+gem "fastly-rails"
 
 group :production do
   gem "rack-timeout"
