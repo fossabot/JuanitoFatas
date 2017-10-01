@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root "home#me"
+  root "home#index"
 
   get "blog" => "posts#index"
   get "blog/*id" => "posts#show", as: :blog_post
