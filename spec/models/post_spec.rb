@@ -44,16 +44,4 @@ RSpec.describe Post do
       )
     end
   end
-
-  describe "#cache_key" do
-    it "by record key and updated_at timestamp" do
-      travel_to Time.zone.local(2017, 1, 1, 0, 0, 0) do
-        post = create(:post, id: 42)
-
-        result = post.cache_key
-
-        expect(result).to eq "posts/42/2017-01-01 00:00:00 UTC"
-      end
-    end
-  end
 end

@@ -81,10 +81,6 @@ GEM
       railties (>= 3.0.0)
     faraday (0.12.1)
       multipart-post (>= 1.2, < 3)
-    fastly (1.13.1)
-    fastly-rails (0.8.0)
-      fastly (~> 1.6)
-      railties (> 2, < 6)
     ffi (1.9.18)
     gemoji (3.0.0)
     github-markdown (0.6.9)
@@ -299,7 +295,6 @@ DEPENDENCIES
   database_rewinder
   dotenv-rails
   factory_girl_rails
-  fastly-rails
   gemoji
   github-markdown
   html-pipeline
