@@ -145,7 +145,7 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (2.0.5)
-    puma (3.10.0)
+    puma (3.11.0)
     rack (2.0.3)
     rack-rewrite (1.5.1)
     rack-test (0.8.0)
@@ -310,7 +310,7 @@ DEPENDENCIES
   octokit (~> 4.7.0)
   pg (~> 0.21)
   pry-rails
-  puma (~> 3.9)
+  puma (~> 3.11)
   rack-rewrite
   rack-timeout
   rails (>= 5.1.3)
