@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class MigratePost
+class PostMigrator
   def initialize(content)
     @content = content
   end
@@ -42,22 +42,4 @@ class MigratePost
     def body
       (lines[7].empty? ? lines[8..-1] : lines[7..-1]).join("\n") + "\n"
     end
-end
-
-class Migrator
-  def initialize(posts)
-    @posts = posts
-  end
-
-  def call
-    posts.each do |post|
-      puts "Migrating #{post}"
-      migrated_post = MigratePost.new(IO.read(post)).call
-      puts "Post#<id: #{migrated_post.id}, title: #{migrated_post.title}>"
-    end
-  end
-
-  private
-
-    attr_reader :posts
 end
