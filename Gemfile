@@ -26,7 +26,7 @@ gem "rack-rewrite"
 gem "skylight"
 gem "redis"
 gem "gemoji"
-gem "nokogiri", ">= 1.7.1"
+gem "nokogiri", ">= 1.8.2"
 
 group :production do
   gem "rack-timeout"
