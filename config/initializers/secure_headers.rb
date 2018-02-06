@@ -15,7 +15,6 @@ SecureHeaders::Configuration.default do |config|
   config.referrer_policy = "origin-when-cross-origin"
   config.csp = {
     # "meta" values. these will shaped the header, but the values are not included in the header.
-    report_only: true,      # default: false
     preserve_schemes: true, # default: false. Schemes are removed from host sources to save bytes and discourage mixed content.
 
     # directive values: these values will directly translate into source directives
@@ -36,4 +35,5 @@ SecureHeaders::Configuration.default do |config|
     upgrade_insecure_requests: true, # see https://www.w3.org/TR/upgrade-insecure-requests/
     report_uri: %w(https://report-uri.io/example-csp)
   }
+  config.csp_report_only = config.csp
 end
