@@ -3,5 +3,5 @@
     = image_tag repository.avatar_url
     h4= repository.title
   p.truncate= emojify(repository.description)
-  = link_to "View Project", repository.url, target: "_blank", rel: "noopener", class: "btn-repo", "aria-label" => "Link to this GitHub project", "itemprop" => "url"
-  = link_to "My Commits", repository.commits_url, target: "_blank", rel: "noopener", class: "btn-repo", "aria-label" => "Link to my commits of this GitHub project", "itemprop" => "url"
+  = links_to "View Project", repository.url, class: "btn-repo", "aria-label" => "Link to this GitHub project"
+  = links_to "My Commits", repository.commits_url, class: "btn-repo", "aria-label" => "Link to my commits of this GitHub project"

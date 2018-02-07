@@ -3,40 +3,32 @@ header.short-introduction
   p
     ' I'm a software engineer interested in programming, web development,
     ' agile practices, software craftsmanship, and
-    = link_to "humane development", "http://humanedevelopment.org", target: "_blank",
-      rel: "noopener", "aria-label" => "http://humanedevelopment.org", "itemprop" => "url"
+    = links_to "humane development", "http://humanedevelopment.org", "aria-label" => "http://humanedevelopment.org"
     ' . I am a web developer specialize in Ruby. Previously I work at
-    => link_to "Cookpad", "https://cookpad.com/us", target: "_blank",
-      rel: "noopener", "aria-label" => "https://cookpad.com/uk", "itemprop" => "url"
+    => links_to "Cookpad", "https://cookpad.com/us", "aria-label" => "https://cookpad.com/uk"
     ' and
-    = link_to "Jolly Good Code",
+    = links_to "Jolly Good Code",
       "https://juanitofatas.com/blog/2016/08/29/jolly_good_old_days",
-      "aria-label" => "http://www.jollygoodcode.com", "itemprop" => "url"
+      "aria-label" => "http://www.jollygoodcode.com"
     ' .
     ' I frequently
     = link_to "contribute to Open Source", "/contributions",
-      "aria-label" => "JuanitoFatas's Open Source Contributions Page", "itemprop" => "url"
+      "aria-label" => "JuanitoFatas's Open Source Contributions Page", itemprop: "url"
     ' , regularly participate at community events, enjoy attending and
-    = link_to "speaking at meetups and conferences", "https://speakerdeck.com/juanitofatas",
-      target: "_blank", rel: "noopener", "aria-label" => "https://speakerdeck.com/juanitofatas",
-      "itemprop" => "url"
+    = links_to "speaking at meetups and conferences", "https://speakerdeck.com/juanitofatas", "aria-label" => "https://speakerdeck.com/juanitofatas"
     | .
   p
     ' I live in Tokyo, Japan. In the past, I lived in Taipei and studied for my bachelor's degree in Leuven, Belgium.
 
   p
     ' The code of this site is available under
-    = link_to "MIT License", "https://github.com/JuanitoFatas/JuanitoFatas", target: "_blank", rel: "noopener", "aria-label" => "Source page of this site", "itemprop" => "url"
+    = links_to "MIT License", "https://github.com/JuanitoFatas/JuanitoFatas", "aria-label" => "Source page of this site"
     | .
 
   ul.link-list itemscope="" itemtype="https://www.schema.org/SiteNavigationElement"
-    li itemprop="name"= link_to "Writing", "/blog", "aria-label" => "Blog", "itemprop" => "url"
-    li itemprop="name"= link_to "Speaking", "https://speakerdeck.com/juanitofatas", target: "_blank",
-      rel: "noopener", "aria-label" => "Speaking", "itemprop" => "url"
-    li itemprop="name"= link_to "Twitter", "https://twitter.com/juanitofatas", target: "_blank",
-      rel: "noopener", "aria-label" => "Twitter", "itemprop" => "url"
-    li itemprop="name"= link_to "GitHub", "https://github.com/juanitofatas", target: "_blank",
-      rel: "noopener", "aria-label" => "GitHub", "itemprop" => "url"
-    li itemprop="name"= mail_to "me@juanitofatas.com", "Contact", "aria-label" => "Contact",
-      "itemprop" => "url"
-    li itemprop="name"= link_to "Quotes", quotes_path, "aria-label" => "Quotes", "itemprop" => "url"
+    li itemprop="name"= link_to "Writing", "/blog", "aria-label" => "Blog", itemprop: "url"
+    li itemprop="name"= links_to "Speaking", "https://speakerdeck.com/juanitofatas", "aria-label" => "https://speakerdeck.com/juanitofatas"
+    li itemprop="name"= links_to "Twitter", "https://twitter.com/juanitofatas", "aria-label" => "https://twitter.com/juanitofatas"
+    li itemprop="name"= links_to "GitHub", "https://github.com/juanitofatas", "aria-label" => "https://github.com/juanitofatas"
+    li itemprop="name"= mail_to "me@juanitofatas.com", "Contact", "aria-label" => "Contact", "itemprop" => "url"
+    li itemprop="name"= link_to "Quotes", quotes_path, "aria-label" => "Quotes", itemprop: "url"
