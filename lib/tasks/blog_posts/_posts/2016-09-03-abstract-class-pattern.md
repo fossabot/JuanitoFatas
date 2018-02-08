@@ -51,7 +51,7 @@ We add a method in the base class (“interface”) that raises when the child c
 require "set"
 
 class Family
-  def self.inherited
+  def self.inherited(child_class)
     child_classes.add child_class
   end
 
