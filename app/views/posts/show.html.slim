@@ -4,7 +4,7 @@ article.post itemscope="" itemtype="https://schema.org/BlogPosting"
     = render "meta", post: @post
   .post-body itemprop="articleBody"
     = markdown_to_html(@post.body)
-
+    = render "last_updated_at", post: @post
 hr
 
 .social
