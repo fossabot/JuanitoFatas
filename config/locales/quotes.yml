@@ -24,3 +24,9 @@ en:
     -
       text: "when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create."
       source: "_why the lucky stiff"
+    -
+      text: "Programming is just another name for the lost art of thinking."
+      source: "Aaron Hsu"
+    -
+      text: "Programs must be written for people to read, and only incidentally for machines to execute."
+      source: "Abelson and Sussman, “SICP”, MIT Press, 1984"

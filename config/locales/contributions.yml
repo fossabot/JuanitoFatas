@@ -79,6 +79,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/7?v=3&s=96
       title: evanphx/benchmark-ips
       description: Provides iteration per second benchmarking for Ruby
+    - url: https://github.com/JuanitoFatas/connection_url_resolver
+      commits_url: https://github.com/JuanitoFatas/connection_url_resolver/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
+      title: JuanitoFatas/connection_url_resolver
+      description: Resolve connection URL into Hash.
     - url: https://github.com/DockYard/party_foul
       commits_url: https://github.com/DockYard/party_foul/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/873981?v=3&s=96
