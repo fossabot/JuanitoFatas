@@ -3,7 +3,7 @@ layout: post
 title: Japanese Verb Classification Guide
 date: 2018-02-12 05:08:20
 description: Guide to Japanese verb classification.
-tags:
+tags: "japanese", "verb"
 ---
 
 Japanese verbs can divide into 3 groups.
