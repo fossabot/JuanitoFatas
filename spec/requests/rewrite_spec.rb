@@ -8,4 +8,12 @@ RSpec.describe "rewrite old routes" do
       "/blog/2015/05/19/rubygem_configuration_pattern"
     )
   end
+
+  it do
+    expect(
+      get "/blog/2018/02/09/git_data_api_example_in_ruby"
+    ).to redirect_to(
+      "/blog/2015/12/23/git_data_api_example_in_ruby"
+    )
+  end
 end

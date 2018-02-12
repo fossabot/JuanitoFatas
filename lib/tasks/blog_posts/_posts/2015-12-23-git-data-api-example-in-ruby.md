@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git Data API example in Ruby
-date: 2018-02-09 15:51:03
+date: 2015-12-23 14:36:03
 description: Example to use GitHub's Git Data API.
 tags: "git", "github", "ruby"
 ---

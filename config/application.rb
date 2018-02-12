@@ -18,6 +18,7 @@ module Juanitofatas
   class Application < Rails::Application
     config.middleware.insert_before(Rack::Runtime, Rack::Rewrite) do
       r301 "/2015/05/19/rubygem-configuration-pattern", "/blog/2015/05/19/rubygem_configuration_pattern"
+      r301 "/blog/2018/02/09/git_data_api_example_in_ruby", "/blog/2015/12/23/git_data_api_example_in_ruby"
     end
   end
 end
