@@ -8,7 +8,7 @@ tags: "mysql", "performance", "sql"
 
 - Knows the [output][explain-output] from [`explain`][explain-tutorial]
 - See [how Optimizer made decision][optimizer]
-- Use index, don't abuse because index takes space
+- [Use index][use-index], don't abuse because index takes space
 - String column could use [index prefix][mysql-create-index] to save space (pick length wisely)
 - `OR` cannot leverage index ([maybe `UNION` can help][union])
 - MySQL not using your index: [Index Hints][index_hints]
@@ -25,6 +25,7 @@ tags: "mysql", "performance", "sql"
 [explain-output]: https://dev.mysql.com/doc/refman/5.7/en/explain-output.html
 [explain-tutorial]: https://dev.mysql.com/doc/workbench/en/wb-tutorial-visual-explain-dbt3.html
 [optimizer]: https://dev.mysql.com/doc/internals/en/optimizer-tracing.html
+[use-index]: https://use-the-index-luke.com
 [mysql-create-index]: https://dev.mysql.com/doc/refman/5.7/en/create-index.html
 [union]: https://stackoverflow.com/a/2829800/517868
 [index_hints]: https://dev.mysql.com/doc/refman/5.7/en/index-hints.html
