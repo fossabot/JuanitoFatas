@@ -3,7 +3,7 @@ layout: post
 title: "Active Loader"
 date: 2016-06-12 16:26:37
 description: "Introducing Active Loader - a RubyGem to load YAML, and JSON."
-tags: ruby, rubygem
+tags: "ruby", "rubygem"
 ---
 
 I wrote a gem called ["Active Loader"](https://github.com/JuanitoFatas/active_loader) to load YAML / JSON either from local path / remote url / the content directly.

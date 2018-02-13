@@ -3,7 +3,7 @@ layout: post
 title: Generate Secure Password
 date: 2015-03-09 14:41:01
 description: Generate Secure Password by pwgen or 1password
-tags: "macOS", "tools", "security"
+tags: "macos", "tools", "security"
 ---
 
 ## [pwgen](https://github.com/jbernard/pwgen)

@@ -3,7 +3,7 @@ layout: post
 title: Rails app on Heroku with SSL from DNSimple
 date: 2016-07-12 18:00:00
 description: Buy, prepare, and deploy an SSL certificate from DNSimple for your Heroku app.
-tags: rails, web, dns
+tags: "rails", "web", "dns"
 ---
 
 This tutorial will share how to add HTTPS (certificate via [DNSimple]) to your Rails app hosted on Heroku.

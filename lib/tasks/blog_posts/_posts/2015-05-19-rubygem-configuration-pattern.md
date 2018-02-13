@@ -3,7 +3,7 @@ layout: post
 title: "RubyGem Configuration Pattern"
 date: 2015-05-19 09:15:35
 description: "How to add support for gem users to configure gem's configurations."
-tags: ruby, rubygem
+tags: "ruby", "rubygem"
 ---
 
 So your gem need to provide set of configurations for your user. It is very typical you put a Gem's config in an initializer in your Rails app:

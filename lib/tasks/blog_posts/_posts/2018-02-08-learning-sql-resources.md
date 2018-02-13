@@ -3,7 +3,7 @@ layout: post
 title: Learning SQL Resources
 date: 2018-02-08 13:51:22
 description: Resources on learning deeply on SQL
-tags: "SQL", "MySQL", "PostgreSQL"
+tags: "sql", "mysql", "postgresql"
 ---
 
 I found these are useful:
