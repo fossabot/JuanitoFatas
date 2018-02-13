@@ -127,7 +127,7 @@ RSpec.describe RenderMarkdown do
 
     html = render_markdown(content)
 
-    expect(html.chomp!).to eq(<<~TEXT.rstrip)
+    expect(html).to eq(<<~TEXT.rstrip)
       <p>There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: <code>var example = true</code>.  If you've got a longer block of code, you can indent with four spaces:<br>
           if (isAwesome){<br>
             return true<br>
@@ -141,10 +141,10 @@ RSpec.describe RenderMarkdown do
 
       <p>And if you'd like to use syntax highlighting, include the language:</p>
 
-      <pre class="highlight highlight-javascript"><code><span class="k">if</span> <span class="p">(</span><span class="nx">isAwesome</span><span class="p">){</span>
+      <div class="highlight highlight-javascript"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">isAwesome</span><span class="p">){</span>
         <span class="k">return</span> <span class="kc">true</span>
       <span class="p">}</span>
-      </code></pre>
+      </code></pre></div>
     TEXT
   end
 
@@ -319,13 +319,12 @@ RSpec.describe RenderMarkdown do
     html = render_markdown(content)
 
     expect(html).to eq(<<~TEXT.rstrip)
-      <pre class="highlight highlight-javascript"><code><span class="kd">function</span> <span class="nx">fancyAlert</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
+      <div class="highlight highlight-javascript"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">fancyAlert</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">if</span><span class="p">(</span><span class="nx">arg</span><span class="p">)</span> <span class="p">{</span>
           <span class="nx">$</span><span class="p">.</span><span class="nx">facebox</span><span class="p">({</span><span class="na">div</span><span class="p">:</span><span class="s1">'#foo'</span><span class="p">})</span>
         <span class="p">}</span>
       <span class="p">}</span>
-      </code></pre>
-
+      </code></pre></div>
 
       <pre><code>function fancyAlert(arg) {
         if(arg) {

@@ -92,10 +92,10 @@ GEM
       nokogiri (>= 1.4)
     html-pipeline-linkify_github (1.0.2)
       html-pipeline (>= 1.11)
-    html-pipeline-rouge_filter (1.0.4)
+    html-pipeline-rouge_filter (1.0.7)
       activesupport
       html-pipeline (>= 1.11)
-      rouge (~> 1.8)
+      rouge (>= 2.0.0, < 4)
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
     jquery-rails (4.3.1)
@@ -188,7 +188,7 @@ GEM
     request_store (1.3.2)
     rollbar (2.15.5)
       multi_json
-    rouge (1.11.1)
+    rouge (3.1.1)
     rspec-core (3.7.0)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
