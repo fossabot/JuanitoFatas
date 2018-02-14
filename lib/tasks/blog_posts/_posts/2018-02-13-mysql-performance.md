@@ -7,6 +7,7 @@ tags: "mysql", "performance", "sql"
 ---
 
 - Knows the [output][explain-output] from [`explain`][explain-tutorial]
+- Profile your query: [SHOW PROFILE][show-profile]
 - See [how Optimizer made decision][optimizer]
 - [Use index][use-index], don't abuse because index takes space
 - String column could use [index prefix][mysql-create-index] to save space (pick length wisely)
@@ -24,6 +25,7 @@ tags: "mysql", "performance", "sql"
 
 [explain-output]: https://dev.mysql.com/doc/refman/5.7/en/explain-output.html
 [explain-tutorial]: https://dev.mysql.com/doc/workbench/en/wb-tutorial-visual-explain-dbt3.html
+[show-profile]: https://dev.mysql.com/doc/refman/5.7/en/show-profile.html
 [optimizer]: https://dev.mysql.com/doc/internals/en/optimizer-tracing.html
 [use-index]: https://use-the-index-luke.com
 [mysql-create-index]: https://dev.mysql.com/doc/refman/5.7/en/create-index.html
