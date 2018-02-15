@@ -10,6 +10,7 @@ I am focusing on:
 - Reading on management and career
 - Writing some Ruby programs for fun
 - Reading [The Dark Forest (Remembrance of Earth's Past #2)](https://www.goodreads.com/book/show/23168817-the-dark-forest)
+- Reading [Powerful: Building a Culture of Freedom and Responsibility](https://www.goodreads.com/book/show/36417234-powerful)
 
 And looking for new challenges. Thanks for reading! :bow:
 
