@@ -15,6 +15,8 @@ git checkout pr-6282
 
 as [GitHub suggested](https://help.github.com/articles/checking-out-pull-requests-locally/).
 
+There is a [`git fetch-pr` script][git-fetch-pr] available.
+
 Or
 
 you can follow [this gist](https://gist.github.com/piscisaureus/3342247) to add an alias, then:
@@ -33,3 +35,5 @@ git am -3 https://github.com/bundler/bundler/pull/6282
 Please see [git-am docs](https://git-scm.com/docs/git-am).
 
 Happy checking!
+
+[git-fetch-pr]: https://github.com/JuanitoFatas/bin/blob/44445529df098b8aa534183496a6a77ac1eb0006/git-fetch-pr
