@@ -30,3 +30,6 @@ en:
     -
       text: "Programs must be written for people to read, and only incidentally for machines to execute."
       source: "Abelson and Sussman, “SICP”, MIT Press, 1984"
+    -
+      text: "In truth, I found myself incorrigible with respect to *Order*; and now I am grown old and my memory bad, I feel very sensibly the want of it. But, on the whole, though I never arrived at the perfection I had been so ambitious of obtaining, but fell far short of it, yet I was, by the endeavour, a better and happier man than I otherwise should have been if I had not attempted it; as those who aim at perfect writing by imitating the engraved copies, though they never reach the wished-for excellence of those copies, their hand is mended by the endeavor, and is tolerable while it continues fair and legible."
+      source: "Benjamin Franklin in his autobiography"
