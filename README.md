@@ -1,6 +1,7 @@
 # JuanitoFatas.com
 
-[![Build Status on Travis CI](https://travis-ci.org/JuanitoFatas/JuanitoFatas.svg?branch=master)][travis]
+[![Build Status on Travis CI](https://travis-ci.org/JuanitoFatas/JuanitoFatas.svg?branch=master)][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJuanitoFatas%2FJuanitoFatas.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJuanitoFatas%2FJuanitoFatas?ref=badge_shield)
+[travis]
 [![Build Status on CircleCI](https://circleci.com/gh/JuanitoFatas/JuanitoFatas.svg?style=svg)][circle]
 [![Code Climate](https://codeclimate.com/github/JuanitoFatas/JuanitoFatas/badges/gpa.svg)][code-climate]
 [![codebeat badge](https://codebeat.co/badges/888042b1-98bd-405e-95f0-61fa0be6ad45)][codebeat]
@@ -32,3 +33,6 @@ To contribute to this project, see the [CONTRIBUTING.md][] file.
 Please see [LICENSE][].
 
 [LICENSE]: https://github.com/JuanitoFatas/JuanitoFatas/blob/master/LICENSE
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJuanitoFatas%2FJuanitoFatas.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJuanitoFatas%2FJuanitoFatas?ref=badge_large)
